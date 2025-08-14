@@ -1,0 +1,4 @@
+flask==1.0.2         # CVE-2018-1000656 - Path Traversal
+requests==2.19.1     # CVE-2018-18074 - Open Redirect
+pyyaml==5.1          # CVE-2020-14343 - Arbitrary Code Execution
+jinja2==2.10         # CVE-2019-10906 - Sandbox Escape

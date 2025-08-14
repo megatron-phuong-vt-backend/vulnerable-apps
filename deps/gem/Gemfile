@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'rack', '1.5.2'               # CVE-2018-16470
+gem 'actionpack', '4.0.0'         # CVE-2016-0751
+gem 'json', '2.3.0'               # CVE-2020-10663
+gem 'devise', '3.5.2'             # CVE-2019-16109

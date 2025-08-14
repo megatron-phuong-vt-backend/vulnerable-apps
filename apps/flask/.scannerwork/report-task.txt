@@ -1,0 +1,6 @@
+projectKey=flask
+serverUrl=https://sonarqube.trado.vn
+serverVersion=25.8.0.112029
+dashboardUrl=https://sonarqube.trado.vn/dashboard?id=flask
+ceTaskId=3b6950bf-ac4d-4346-8364-5955e53f4c91
+ceTaskUrl=https://sonarqube.trado.vn/api/ce/task?id=3b6950bf-ac4d-4346-8364-5955e53f4c91

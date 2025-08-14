@@ -1,0 +1,25 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.24'
+    id 'application'
+}
+
+group = 'com.example'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+
+    // 🛡 Vulnerable dependencies
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.9.5"     // CVE-2018-7489
+    implementation "commons-collections:commons-collections:3.2.1"         // CVE-2015-6420
+    implementation "org.apache.logging.log4j:log4j-core:2.14.0"            // CVE-2021-44228
+    implementation "org.springframework:spring-web:5.2.2.RELEASE"          // CVE-2020-5398
+}
+
+application {
+    mainClass = "MainKt"
+}
