@@ -12,7 +12,7 @@
     "debug": "2.6.8",
     "jquery": "3.4.0",
     "handlebars": "4.0.5",
-    "marked": "0.3.9"
+    "marked": "0.8.2"
   },
   "author": "",
   "license": "ISC",
