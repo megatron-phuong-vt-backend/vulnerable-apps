@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "express": "4.16.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.21",
     "mongoose": "4.13.9",
     "debug": "2.6.8",
     "jquery": "3.4.0",
